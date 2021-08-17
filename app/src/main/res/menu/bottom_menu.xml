@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/carFragment"
+        android:icon="@drawable/icon_list"
+        android:title="@string/List" />
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/icon_map"
+        android:title="@string/Map" />
+
+</menu>

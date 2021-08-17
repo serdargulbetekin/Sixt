@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/linearLayout_container"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/shape_rectangle_grey_radius_5_stroke"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:text="Vanessa" />
+
+        <TextView
+            android:id="@+id/textView_modelNameMake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:text="Vanessa" />
+
+        <TextView
+            android:id="@+id/textView_fuelType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:text="Vanessa" />
+
+        <TextView
+            android:id="@+id/textView_fuelLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:text="Vanessa" />
+
+        <TextView
+            android:id="@+id/textView_cleanliness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:text="Vanessa" />
+    </LinearLayout>
+
+</LinearLayout>
